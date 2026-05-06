@@ -2,34 +2,15 @@
 data/
 results_v4/
 
+# Paper (separate submission)
+paper/
+
 # Python
 __pycache__/
 *.pyc
 *.egg-info/
-.eggs/
 
-# LaTeX build artifacts
-paper/*.aux
-paper/*.bbl
-paper/*.blg
-paper/*.log
-paper/*.out
-paper/*.fls
-paper/*.fdb_latexmk
-paper/*.synctex.gz
-paper/*.pdf
-paper/main_old_split.tex.bak
-
-# IDE
-.idea/
-.vscode/
-*.swp
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Project artifacts (not needed in repo)
+# Project artifacts
 REVIEW_STATE.json
 EXPERIMENT_AUDIT.json
 AUTO_REVIEW.md
@@ -37,11 +18,13 @@ EXPERIMENT_AUDIT.md
 findings.md
 IDEA_REPORT.md
 CLAUDE.md
-paper/PAPER_IMPROVEMENT_LOG.md
-paper/PAPER_IMPROVEMENT_STATE.json
-paper/main_round*.pdf
 refine-logs/
 logs/
 *.tar.gz
 *.zip
-overleaf_upload.*
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store

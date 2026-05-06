@@ -2,8 +2,6 @@
 
 **How Preprocessing Choices Undermine EEG Decoding Reliability**
 
-> NeurIPS 2026 Submission
-
 ## Key Finding
 
 Up to **42% of EEG trial-level predictions flip** when only the preprocessing pipeline changes — the model, data, and labels remain identical. This variability is invisible to standard uncertainty methods (softmax entropy, MC Dropout).
@@ -67,17 +65,6 @@ python scripts/train_pgi.py \
 # Run sensitivity analysis
 python scripts/analyze_interventions.py
 python scripts/analyze_extensions.py
-```
-
-## Citation
-
-```bibtex
-@inproceedings{anonymous2026preprocessing,
-    title={Same Brain, Different Prediction: How Preprocessing Choices Undermine {EEG} Decoding Reliability},
-    author={Anonymous},
-    booktitle={Advances in Neural Information Processing Systems (NeurIPS)},
-    year={2026}
-}
 ```
 
 ## License
