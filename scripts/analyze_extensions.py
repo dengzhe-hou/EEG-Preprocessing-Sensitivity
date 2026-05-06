@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 """
-Three novelty extensions for the NeurIPS paper:
+Three analysis extensions:
 1. Walsh-Hadamard / ANOVA interaction spectrum
 2. Signal-level mediation analysis
 3. CFR as uncertainty → selective prediction
