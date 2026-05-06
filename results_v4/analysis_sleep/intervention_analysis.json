@@ -1,0 +1,51 @@
+{
+  "reference": {
+    "mean_delta": 0.0,
+    "abs_delta": 0.0,
+    "std_delta": 0.0,
+    "n_positive": 0,
+    "n_negative": 0
+  },
+  "hpf": {
+    "mean_delta": -0.047783653241173195,
+    "abs_delta": 0.047783653241173195,
+    "std_delta": 0.018003443978110174,
+    "n_positive": 0,
+    "n_negative": 64
+  },
+  "lpf": {
+    "mean_delta": 0.002048734456076881,
+    "abs_delta": 0.002050674425658164,
+    "std_delta": 0.00388889360848687,
+    "n_positive": 18,
+    "n_negative": 2
+  },
+  "baseline": {
+    "mean_delta": -0.007943658150320193,
+    "abs_delta": 0.007945598119901476,
+    "std_delta": 0.010357042564925631,
+    "n_positive": 2,
+    "n_negative": 32
+  },
+  "asr": {
+    "mean_delta": -0.013150199102035041,
+    "abs_delta": 0.014049510973113355,
+    "std_delta": 0.013013429256298423,
+    "n_positive": 20,
+    "n_negative": 44
+  },
+  "autoreject": {
+    "mean_delta": -0.0023514973776736017,
+    "abs_delta": 0.0050254565824461375,
+    "std_delta": 0.006311571992591743,
+    "n_positive": 36,
+    "n_negative": 28
+  },
+  "badchannel": {
+    "mean_delta": -0.04458116549809501,
+    "abs_delta": 0.04458116549809501,
+    "std_delta": 0.020065369625542562,
+    "n_positive": 0,
+    "n_negative": 64
+  }
+}

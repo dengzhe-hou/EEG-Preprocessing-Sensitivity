@@ -1,6 +1,8 @@
 # Data (too large for git)
 data/
-results_v4/
+
+# Results: include JSON/npy, exclude checkpoints
+results_v4/**/*.pt
 
 # Paper
 paper/

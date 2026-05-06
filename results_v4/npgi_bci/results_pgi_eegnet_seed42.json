@@ -1,0 +1,47 @@
+[
+  {
+    "fold": 0,
+    "method": "pgi",
+    "model": "eegnet",
+    "best_epoch": 0,
+    "test": {
+      "mean_accuracy": 0.30988141752313825,
+      "worst_accuracy": 0.094375,
+      "best_accuracy": 0.5047321429848671,
+      "cfr": 0.3304701451957226,
+      "max_cfr": 0.6992857146263123,
+      "pgi_loss": 0.12962021746207028
+    },
+    "seed": 42
+  },
+  {
+    "fold": 1,
+    "method": "pgi",
+    "model": "eegnet",
+    "best_epoch": 0,
+    "test": {
+      "mean_accuracy": 0.30791766832743844,
+      "worst_accuracy": 0.051682692307692304,
+      "best_accuracy": 0.5470753206083407,
+      "cfr": 0.4500075120192308,
+      "max_cfr": 0.8521634615384616,
+      "pgi_loss": 0.21817119442857802
+    },
+    "seed": 42
+  },
+  {
+    "fold": 2,
+    "method": "pgi",
+    "model": "eegnet",
+    "best_epoch": 0,
+    "test": {
+      "mean_accuracy": 0.29678863067245437,
+      "worst_accuracy": 0.055904522613065326,
+      "best_accuracy": 0.5321608040500526,
+      "cfr": 0.4375883322864322,
+      "max_cfr": 0.8746231156377936,
+      "pgi_loss": 0.3237361537676361
+    },
+    "seed": 42
+  }
+]
